@@ -1,0 +1,30 @@
+{
+  "name": "angular-pie-chart",
+  "version": "1.0.0",
+  "description": "Pie chart with percentages shown above slices.",
+  "authors": [
+      "Timo Myllymäki <timyllym@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timyllym/angular-pie-chart.git"
+  },
+  "main": [
+    "dist/angular-pie-chart.min.js",
+    "dist/angular-pie-chart.css"
+  ],
+  "ignore": [
+  ],
+  "dependencies": {
+    "d3": "^3.5.3",
+    "jquery": "^2.1.1",
+    "jquery-ui": "^1.11.1",
+    "angular": "1.4.4"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.4.4"
+  },
+  "resolutions": {
+    "angular": "1.4.4"
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "version": "1.5.3",
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": false
+    },
+    "compileOnSave": false,
+    "filesGlob": [
+        "./src/*.ts",
+        "!./src/*.d.ts",
+        "./typedefinitions/**/*.d.ts"
+    ],
+    "files": [
+        "./src/angular-pie-chart-directive.ts",
+        "./typedefinitions/angularjs/angular-mocks.d.ts",
+        "./typedefinitions/angularjs/angular.d.ts",
+        "./typedefinitions/d3/d3.d.ts",
+        "./typedefinitions/jquery/jquery.cookie.d.ts",
+        "./typedefinitions/jquery/jquery.d.ts"
+    ]
+}

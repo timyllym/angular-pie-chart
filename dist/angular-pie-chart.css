@@ -1,0 +1,13 @@
+.angular-pie-chart .legend {
+  font-size: 12px;
+}
+.angular-pie-chart .legend text {
+  fill: #333333;
+}
+.angular-pie-chart rect {
+  stroke-width: 2;
+}
+.angular-pie-chart .angular-pie-chart-label {
+  fill: #ffffff;
+  font-weight: bold;
+}
